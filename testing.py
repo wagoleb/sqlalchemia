@@ -40,11 +40,11 @@ ed_user = User('ed', 'Ed Jones', 'edspassword')
 print('Instancja: {}'.format(ed_user))
 print('Klucz: {}'.format(ed_user.id if ed_user.id else 'Brak'))
 
-session.add(ed_user)
+#session.add(ed_user)
 # wykonywanie operacji
 
 
-session.commit()
+#session.commit()
 print('Klucz: {}'.format(ed_user.id if ed_user.id else 'Brak'))
 
 
